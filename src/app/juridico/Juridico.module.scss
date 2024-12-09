@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.juridicoContainer {
+  font-family: 'Exo 2','Manrope', 'Josefin Sans', 'Lato', sans-serif; 
+  background-image: url('/images/justice.png');
+  background-size: cover;
+  background-color: #363636;
+  background-position: center;
+  background-attachment: fixed; 
+  min-height: 100vh;
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+
+  h2 {
+    margin: 6px;
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    color: #949494; 
+  }
+
+  p {
+    font-family: 'Lexend';
+    transform: translateY(-70px); 
+    padding: 5px 0;
+    font-size: 2.5rem; 
+    font-weight: 100; 
+    color: #ddd; 
+    line-height: 0.6; 
+  }
+  
+  h1 {
+    margin: 10px;
+    padding: 5px 0;
+    font-size: 1.8rem; 
+    font-weight: 100; 
+    color: #23B44F;
+    line-height: 0.6; 
+  }
+
+  h3 {
+    margin-top: 8px;
+    color: #E4E6EE;
+    font-family: Lexend;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .highlight { 
+    color: green; 
+  }
+
+  .image {
+    margin-top: 30px;
+    margin-bottom: 2px; 
+    width: 180px;
+    height: 180px; 
+  }
+
+  .rectangle {
+    width: 103%; 
+    height: 1700px; 
+    background-color: #363636; 
+    margin-top: 500px; 
+    border-radius: 10px; 
+  }
+
+  .rectangle2 {
+    width: 100%; 
+    font-family: 'Manrope';
+    height: 150; 
+    background-color: #4F4F4F; 
+    margin-top: 30px; 
+    border-radius: 10px; 
+  }
+
+  .button {
+    font-family: 'Manrope'; 
+    font-size: 22px;
+    border-radius: 8px;
+    background: #696D65;
+    box-shadow: 0px 0px 5px 0px rgba(176, 176, 176, 0.50) inset;
+    width: 250px;
+    height: 80px;
+    flex-shrink: 0;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .button2 {
+    font-family: 'Manrope'; 
+    font-size: 22px;
+    border-radius: 8px;
+    background: #696D65;
+    box-shadow: 0px 0px 5px 0px rgba(176, 176, 176, 0.50) inset;
+    width: 250px;
+    height: 80px;
+    flex-shrink: 0;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+
+  .button3 {
+    font-family: 'Manrope'; 
+    font-size: 22px;
+    border-radius: 8px;
+    background: #696D65;
+    box-shadow: 0px 0px 5px 0px rgba(176, 176, 176, 0.50) inset;
+    width: 250px;
+    height: 80px;
+    flex-shrink: 0;
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+  }
+
+  .square {
+    width: 1200px; 
+    height: 500px; 
+    border: 1px solid #C6C6C6; 
+    border-radius: 3px; 
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 10px; 
+  }
+
+  .title {
+    font-size: 40px; 
+    margin-top: 80px;
+    margin-bottom: 60px; 
+    font-weight: 500;
+    color:#FFFF;
+    font-family: 'Lexend'; 
+  }
+
+  .teamMember2 {
+    margin-top: -280px;
+    text-align: left;
+    margin-left: 340px;
+    font-family: "Josefin Sans";
+  }
+  .teamMember1 {
+    margin-bottom: 5px;
+    margin-right: 80px; 
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Josefin Sans";
+  }
+  .teamMember3 {
+    margin-top: -280px;
+    text-align: left;
+    margin-left: 600px;
+    font-family: "Josefin Sans";
+  }
+  .teamMember4 {
+    margin-top: -280px;
+    text-align: left;
+    margin-left: 880px;
+    font-family: "Josefin Sans";
+  }
+
+
+
+
+  .attendanceSection {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #4D4D4D;
+    color: #fff;
+    
+  }
+
+  .attendanceTitle {
+    font-family: 'Lexend';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .mainText {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-top: 100px,;
+    font-weight: bold;
+  }
+
+  .subText {
+    font-family: 'Lato';
+    font-size: 26px;
+    line-height: 1;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    color: #C4C4C4;
+  }
+
+  .importantText {
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 60px;
+    margin-bottom: 90px;
+  }
+
+  .footerText {
+    font-family: 'Lato';
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-top: 40px;
+  }
+
+  .highlightLink {
+    color: #36AE5B; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .highlightLink2 {
+    color: #79C18F; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .attendanceTitle::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 10px auto 0;
+  }
+
+
+
+  .newsLetterContainer {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > div {
+      width: 61rem;
+      height: 9rem;
+      border-radius: 2rem;
+      background-color: #0f3326;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      p {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      input {
+        color: white;
+        border: none;
+        border-radius: 0.75rem;
+        background-color: rgba(33, 132, 108, 0.7);
+        padding: 0.2rem 1rem;
+
+        &::placeholder {
+          color: white;
+          font-weight: 500;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 8.5rem;
+        border: 2px solid black;
+        outline: none;
+        background-color: #52ecb4;
+        padding: 0 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+        color: black;
+        border-radius: 1.3rem;
+        cursor: pointer;
+      }
+
+      .external-link {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .legalNotices {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #0f3326;
+    margin-top: 30px;
+  }
+
+  .legalNotices a {
+    color: #4a8d77;
+    text-decoration: none;
+  }
+}
